@@ -38,26 +38,26 @@ function lastIndex(arr) {
 }
 console.log(last(items, lastIndex));
 
-function sumNums(x, y, cb) {
-  // sumNums adds two numbers (x, y) and passes the result to the callback.
-  return cb(x, y);
-}
+// function sumNums(x, y, cb) {
+//   // sumNums adds two numbers (x, y) and passes the result to the callback.
+//   return cb(x, y);
+// }
 
-function sum(x, y) {
-  return x + y;
-}
+// function sum(x, y) {
+//   return x + y;
+// }
 
-console.log(sumNums(items[0].length, items[3].length, sum));
+// console.log(sumNums(items[0].length, items[3].length, sum));
 
-function multiplyNums(x, y, cb) {
-  // multiplyNums multiplies two numbers and passes the result to the callback.
-  return cb(x * y);
-}
-console.log(
-  multiplyNums(items[2].length, items[1].length, product =>
-    console.log(product)
-  )
-);
+// function multiplyNums(x, y, cb) {
+//   // multiplyNums multiplies two numbers and passes the result to the callback.
+//   return cb(x * y);
+// }
+// console.log(
+//   multiplyNums(items[2].length, items[1].length, product =>
+//     console.log(product)
+//   )
+// );
 
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
