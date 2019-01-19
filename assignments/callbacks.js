@@ -49,15 +49,15 @@ function sum(x, y) {
 
 console.log(sumNums(items[0].length, items[3].length, sum));
 
-// function multiplyNums(x, y, cb) {
-//   // multiplyNums multiplies two numbers and passes the result to the callback.
-//   return cb(x * y);
-// }
-// console.log(
-//   multiplyNums(items[2].length, items[1].length, product =>
-//     console.log(product)
-//   )
-// );
+function multiplyNums(x, y, cb) {
+  // multiplyNums multiplies two numbers and passes the result to the callback.
+  return cb(x * y);
+}
+console.log(
+  multiplyNums(items[2].length, items[1].length, product =>
+    console.log(product)
+  )
+);
 
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
